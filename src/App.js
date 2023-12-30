@@ -127,7 +127,7 @@ React.useEffect(() => {
                     </div>
             )}
              {item.bot == '' && pro && (
-                    <div className={'d-flex justify-content-start ' + (window.innerWidth < 700 ? 'w-75' : 'w-50')} data-aos="fade-down-right">
+                    <div className={'d-flex justify-content-start mb-2 ' + (window.innerWidth < 700 ? 'w-75' : 'w-50')} data-aos="fade-down-right">
                     <div className="card">
                         <div className="card-body">
                         <img src='https://cdn.statically.io/gl/cpx2017/cpxcdnbucket@main/main/cpx-circular.svg' width='40' />
