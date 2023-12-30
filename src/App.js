@@ -109,7 +109,7 @@ React.useEffect(() => {
         {
           chatHistory.map((item) => (
             <div key={item.id}>
-            <div className='d-flex justify-content-end mb-3' data-aos="fade-down-left">
+            <div className='d-flex justify-content-end mt-3 mb-3' data-aos="fade-down-left">
             <div className="card">
                 <div className="card-body">
                   {item.user}
@@ -127,7 +127,7 @@ React.useEffect(() => {
                     </div>
             )}
              {item.bot == '' && pro && (
-                    <div className={'d-flex justify-content-start mb-2 ' + (window.innerWidth < 700 ? 'w-75' : 'w-50')} data-aos="fade-down-right">
+                    <div className={'d-flex justify-content-start ' + (window.innerWidth < 700 ? 'w-75' : 'w-50')} data-aos="fade-down-right">
                     <div className="card">
                         <div className="card-body">
                         <img src='https://cdn.statically.io/gl/cpx2017/cpxcdnbucket@main/main/cpx-circular.svg' width='40' />
