@@ -162,7 +162,7 @@ React.useEffect(() => {
     </div>
   </div>
 </form>
-    <div class="container card-body form-check mb-3">
+    <div class="container p-2 form-check mb-3">
       <input class="form-check-input" type="checkbox" value={con} disabled={chatHistory.length > 0} onChange={() => setCon(!con)} />
       <label class="form-check-label" for="defaultCheck1">
         Continuous Chat (Remember previous conversation on this chat)
